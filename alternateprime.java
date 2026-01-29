@@ -5,7 +5,7 @@ public class AlternatePrimes {
 
         int count = 0; // to track prime position
 
-        System.out.println("Alternate prime numbers up to " + limit + ":");
+
 
         for (int num = 2; num <= limit; num++) {
             if (isPrime(num)) {
